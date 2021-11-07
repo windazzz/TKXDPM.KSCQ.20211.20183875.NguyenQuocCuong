@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="56.0" fitWidth="57.0" layoutX="48.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Screen%20Shot%202021-11-05%20at%2010.12.55%20AM.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="132.0" layoutY="40.0" text="CART" textFill="#11b5dd">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Pane layoutX="31.0" layoutY="118.0" prefHeight="636.0" prefWidth="1012.0" style="-fx-border-color: grey;">
+         <children>
+            <Pane layoutX="14.0" layoutY="14.0" prefHeight="149.0" prefWidth="987.0" style="-fx-border-color: yellow;">
+               <children>
+                  <ImageView fitHeight="118.0" fitWidth="53.0" layoutX="14.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Favorites/Lord%20of%20the%20Mystery/79160463_p6.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="120.0" layoutY="37.0" prefHeight="28.0" prefWidth="65.0" text="Book3" textFill="#07c0ee">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="117.0" layoutY="76.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="114.0" style="-fx-border-color: blue;" text="Delete" />
+                  <Label layoutX="798.0" layoutY="40.0" text="1000" textFill="#009cc3">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="802.0" layoutY="78.0" text="VND" textFill="#00acfc">
+                     <font>
+                        <Font name="Arial Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Spinner editable="true" layoutX="861.0" layoutY="56.0" prefHeight="25.0" prefWidth="105.0" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button layoutX="1104.0" layoutY="452.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="204.0" style="-fx-background-color: red;" text="Place order" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="1062.0" layoutY="140.0" text="Subtotal:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1088.0" layoutY="179.0" text="Amount:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="1308.0" layoutY="182.0" text="VAT 10%" textFill="RED" />
+      <Label layoutX="1177.0" layoutY="140.0" text="1000" textFill="#009cc3">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="1181.0" layoutY="177.0" text="1100" textFill="#009cc3">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="1246.0" layoutY="182.0" text="VND" textFill="#00acfc">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="1246.0" layoutY="143.0" text="VND" textFill="#00acfc">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
